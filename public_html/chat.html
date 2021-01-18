@@ -20,6 +20,7 @@
         <!-- Custom styles for this template-->
         <link href="css/sb-admin-2.min.css" rel="stylesheet">
         <link href="css/chat.css" rel="stylesheet">
+        
 
         <script type="text/javascript" src="js/script.js"></script>
 
@@ -43,27 +44,15 @@
                     </button>
 
                     <!-- Topbar Search -->
-					<ul class="nav nav-tabs">
-					  <li class="nav-item">
-					    <a class="nav-link active" aria-current="page" href="#">Inglés</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Matemáticas II</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Física</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Química</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Castellano</a>
-					  </li>
-					   <li class="nav-item">
-					    <a class="nav-link" href="#">Dibujo técnico II</a>
-					  </li>
-
-					</ul>                    
+					 <nav>
+					    <ol class="breadcrumb">
+					        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+					        <li class="breadcrumb-item"><a href="#">Menú principal</a></li>
+					        <li class="breadcrumb-item"><a href="#">Asignaturas</a></li>
+					        <li class="breadcrumb-item"><a href="lista-profes.html">Lista profesores</a></li>
+					        <li class="breadcrumb-item active">Información</li>
+					    </ol>
+					</nav>               
 					
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -111,17 +100,16 @@
                         </li>
                     </ul>
                     
-                    <div class="dropdown">
-					  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-					    Roberto Giménez
-					  </a>
-					
-					  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					    <li><a class="dropdown-item" href="#">Volver inicio</a></li>					  	
-					    <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
-					  </ul>
-					</div>
-					<div class="dropdown">
+                    <div class="btn-group">
+						  <button type="button" class="btn btn-default dropdown-toggle"
+						          data-toggle="dropdown">
+						   	Roberto Giménez <span class="caret"></span>
+						  </button>
+						
+						  <ul class="dropdown-menu" role="menu">
+						    <li><a href="#">Cerrar sesión</a></li>
+						  </ul>
+						</div>		
 
                 </nav>
                 <!-- End of Topbar -->
@@ -133,22 +121,9 @@
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
                     
-                    	<div class="row">
-                    		<div class="col">
-                    			<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-		 					 		<path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-								</svg>
-                    		</div>
-                    		<div class="col text-left">
-                           		<h1 class="h3 mb-0 text-gray-800 text-left">John Doe</h1>
-                        	</div>
-                        </div>
-							
-                      <br>
-                      <br>
-                      <br>
-						
-
+                    
+              		<h1 class="h3 mb-0 text-gray-800 text-center">John Doe Martinez</h1>
+                    
 				<div class="container bootstrap snippets bootdeys">
 					<div class="col-md-7 col-xs-12 col-md-offset-2">
 					  <!-- Panel Chat -->
@@ -222,8 +197,18 @@
 					  <!-- End Panel Chat -->
 					</div>
 					</div>
-									
-				 <!-- Footer -->
+					
+
+                    </div>
+                    <!-- Page Content End -->
+
+                </div>
+                <!-- End of Main Content -->
+				<br>
+                <br>
+                <br>
+              
+                <!-- Footer -->
                 <footer class="sticky-footer bg-white">
                     <div class="container">
                         
@@ -268,7 +253,22 @@
             </div>
         </div>
 
+        <!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin-2.min.js"></script>
+
+        <!-- Page level plugins -->
+        <script src="vendor/chart.js/Chart.min.js"></script>
+
+        <!-- Page level custom scripts -->
+        <script src="js/demo/chart-area-demo.js"></script>
+        <script src="js/demo/chart-pie-demo.js"></script>
 
     </body>
 

@@ -42,27 +42,14 @@
                     </button>
 
                     <!-- Topbar Search -->
-					<ul class="nav nav-tabs">
-					  <li class="nav-item">
-					    <a class="nav-link active" aria-current="page" href="#">Inglés</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Matemáticas II</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Física</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Química</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#">Castellano</a>
-					  </li>
-					   <li class="nav-item">
-					    <a class="nav-link" href="#">Dibujo técnico II</a>
-					  </li>
-
-					</ul>                    
+					 <nav>
+					    <ol class="breadcrumb">
+					        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+					        <li class="breadcrumb-item"><a href="#">Menú principal</a></li>
+					        <li class="breadcrumb-item"><a href="#">Asignaturas</a></li>
+					        <li class="breadcrumb-item active">Lista profesores</li>
+					    </ol>
+					</nav>               
 					
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -110,17 +97,16 @@
                         </li>
                     </ul>
                     
-                    <div class="dropdown">
-					  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-					    Roberto Giménez
-					  </a>
-					
-					  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					    <li><a class="dropdown-item" href="#">Volver inicio</a></li>					  	
-					    <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
-					  </ul>
-					</div>
-					<div class="dropdown">
+                    <div class="btn-group">
+						  <button type="button" class="btn btn-default dropdown-toggle"
+						          data-toggle="dropdown">
+						   	Roberto Giménez <span class="caret"></span>
+						  </button>
+						
+						  <ul class="dropdown-menu" role="menu">
+						    <li><a href="#">Cerrar sesión</a></li>
+						  </ul>
+						</div>		
 
                 </nav>
                 <!-- End of Topbar -->
@@ -132,16 +118,9 @@
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
                     
-                    	<div class="row">
-                    		<div class="col">
-                    			<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-		 					 		<path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-								</svg>
-                    		</div>
-                    		<div class="col text-left">
-                           		<h1 class="h3 mb-0 text-gray-800 text-left">Profesorado</h1>
-                        	</div>
-                        </div>
+                    
+              		<h1 class="h3 mb-0 text-gray-800 text-center">Profesorado</h1>
+                    
 							
                       <br>
                       <br>
