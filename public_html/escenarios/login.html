@@ -20,6 +20,8 @@
         <!-- Custom styles for this template-->
         <link href="../css/sb-admin-2.min.css" rel="stylesheet">
         <link href="../css/styles.css" rel="stylesheet">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="../js/script.js" ></script>
 
     </head>
 
@@ -42,25 +44,21 @@
                                     </div>
                                     <div class="pt-3 pl-5 pr-5 pb-5">
 
-                                        <form class="user">
+                                        <form class="user" id="initSesion" name="initSesion" onsubmit="return comprobar()">
                                             <div class="form-group">
-                                                <label for="exampleInputEmail">Usuario</label>
+                                                <label for="userID">Usuario</label>
                                                 <input class="form-control form-control-user"
-                                                       id="exampleInputEmail" placeholder="12345678A">
+                                                       id="userID" placeholder="12345678A">
                                             </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail">Contrase&ntilde;a</label>
+                                            <div class="form-group" id="divPass">
+                                                <label for="userPassword">Contrase&ntilde;a</label>
                                                 <input type="password" class="form-control form-control-user"
-                                                       id="exampleInputPassword" placeholder="Password">
+                                                       id="userPassword" placeholder="Password">
                                             </div>
                                             <div class="row pl-5 pr-5">
-                                                <a href="usuario.html" class="btn btn-success btn-user btn-block col-xl-4 col-lg-5 col-md-4">
-                                                    Login
-                                                </a>
+                                                <input type="submit" class="btn btn-success btn-user btn-block col-xl-4 col-lg-5 col-md-4" value="Login"/>
                                                 <div class="col-xl-4 col-lg-2 col-md-4"></div>   
-                                                <a href="../index.html" class="btn btn-danger btn-user btn-block col-xl-4 col-lg-5 col-md-4 ">
-                                                    Cancelar
-                                                </a>   
+                                                <input type="button" class="btn btn-danger btn-user btn-block col-xl-4 col-lg-5 col-md-4 " value="Cancelar" onClick="volver()"/>
                                             </div>
                                         </form>
                                         <hr>
@@ -77,17 +75,7 @@
                 </div>
 
             </div>
-
-            <!-- Bootstrap core JavaScript-->
-            <script src="vendor/jquery/jquery.min.js"></script>
-            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-            <!-- Core plugin JavaScript-->
-            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-            <!-- Custom scripts for all pages-->
-            <script src="js/sb-admin-2.min.js"></script>
-
+        </div>
     </body>
 
 </html>
