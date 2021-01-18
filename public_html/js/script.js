@@ -27,7 +27,7 @@ function comprobar() {
         $.each(listaNoticias, function (index, usuario) {
             if (dni == usuario.id) {
                 if (pass == usuario.password) {
-                    window.location.href = "usuario.html";
+                    window.location.href = "./usuario.html";
                 }
             } else {
                 if (!div) {
@@ -47,6 +47,10 @@ function volver() {
     window.location.href = "../index.html";
 }
 
+function recuperarContrasena(){
+    alert("Felicidades, has llegado hasta el fin de esta implementación. De ser una aplicación real, este botón serviría de algo, pero como esto no va de correos y contraseñas, sino de hacer un buen front-end, pues aquí nos hemos quedado :)");
+    return false;
+}
 //Leemos el archivo noticias.xml
 //for each y for 0 --> 4 (5 últimas, nada más)
 //Creamos un div y lo insertamos dentro de PageContent
