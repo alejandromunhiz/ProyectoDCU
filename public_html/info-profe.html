@@ -31,25 +31,23 @@
 
 
             <!-- Content Wrapper -->
-            <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content-wrapper" class="d-flex flex-column" style="min-width: 800px;">
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-5 static-top shadow">
 
-                    <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
-
                     <!-- Topbar Search -->
 					 <nav>
-					    <ol class="breadcrumb">
+					 <div class="col-lg-auto">
+					 	<ol class="breadcrumb">
 					        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
 					        <li class="breadcrumb-item"><a href="#">Menú principal</a></li>
 					        <li class="breadcrumb-item"><a href="#">Asignaturas</a></li>
 					        <li class="breadcrumb-item"><a href="lista-profes.html">Lista profesores</a></li>
 					        <li class="breadcrumb-item active">Información</li>
 					    </ol>
+					 </div>
+					    
 					</nav>               
 					
                     <!-- Topbar Navbar -->
@@ -119,10 +117,10 @@
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
                    		<div class="row">
-                   			<div class="col-3" style="margin: 30px">
+                   			<div class="col-lg-auto" style="margin: 30px">
                    				<img src="img/profesor.jpg" alt="Profesor"  width="200" height="200">
                    			</div>
-                   			<div class="col-5 text-center">
+                   			<div class="col-lg-auto text-center">
                    				<p style="font-size:40px">John Doe Martinez</p>
                    				<p>johndoe@profesorado.instituto.com</p>
                    			</div>
@@ -135,9 +133,11 @@
                    		<hr>
                    		<p>Lunes a Viernes, de 9:00 a 11:00, 14:00 a 15:00 y 17:00 a 19:00</p>
                    		
-                   		<div class="row">
-           				   <button type="button" class="btn btn-primary btn-lg">Contactar</button>	
-                   		</div>
+                   		<div class="row w-100 align-items-center">
+			    			<div class="col text-center">
+           				   <button type="button" class="btn btn-lg btn-primary" onclick="location.href='chat.html'" style="justify-content: center;">Contactar</button>	
+			    			</div>	
+			    		</div>
                    		
                    		
                     
