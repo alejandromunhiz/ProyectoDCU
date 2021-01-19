@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<noticias>
+    <noticia>
+        <titulo>Ingreso en la &eacute;lite educativa.</titulo>
+        <cuerpo>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui metus, placerat non convallis non, vulputate ut lectus. In hac habitasse platea dictumst. Aenean quis arcu in purus ornare interdum et sit amet lectus. Nullam accumsan risus at orci convallis volutpat. Curabitur eget tincidunt mi, et iaculis nisi. Aenean convallis ac lacus sit amet tincidunt. Curabitur semper laoreet suscipit. Maecenas quis nunc vestibulum ex congue rhoncus. Integer tincidunt quam sit amet blandit suscipit. Quisque sollicitudin lacus eget nunc dictum rhoncus.
+
+            Etiam maximus, metus ut cursus dignissim, arcu lorem bibendum mi, vitae hendrerit turpis tortor vitae arcu. Nunc ornare imperdiet facilisis. Fusce aliquam efficitur interdum. Fusce a tempus ligula. Nulla facilisi. Suspendisse pulvinar urna nec consectetur accumsan. Sed vulputate sodales lorem, ut scelerisque eros lacinia non. Etiam euismod rhoncus porta.
+
+            Nunc interdum urna ultricies dolor hendrerit tristique eget et nulla. Integer pretium tincidunt purus, quis vestibulum mauris dignissim non. Nunc nulla eros, dictum sed ex a, faucibus tempor sapien. Mauris dictum urna lorem, eu facilisis magna fermentum ut. Proin eu aliquam purus. Donec at posuere orci, ac commodo nisi. Mauris malesuada lorem sapien, non tempus mauris elementum at. Cras laoreet faucibus enim. In euismod enim quis lorem tempus vulputate. Sed tincidunt massa et odio lacinia vestibulum. In ut laoreet purus. Nullam euismod a augue sit amet suscipit.
+
+            Cras feugiat metus ut justo efficitur tempus. Etiam egestas aliquet ex, vitae scelerisque est feugiat gravida. Sed ut est eu libero venenatis accumsan. Etiam risus libero, rutrum eget facilisis quis, fringilla vitae magna. Vivamus eleifend est vitae velit semper, non efficitur nibh eleifend. Phasellus ultricies blandit sapien, ac dapibus ipsum euismod sit amet. Integer mollis erat nec dui semper consectetur. Praesent sollicitudin non leo quis lobortis. Quisque sit amet turpis mi. Vestibulum quis molestie ante, non feugiat odio. Praesent dignissim eros a arcu feugiat interdum. Morbi varius consectetur turpis nec efficitur. Mauris blandit nibh vitae metus hendrerit facilisis. Phasellus eu tellus vitae odio bibendum volutpat ac sit amet augue.
+
+            Donec cursus porttitor semper. Phasellus vitae euismod leo. Sed nec risus suscipit, tincidunt sem non, consequat turpis. Nullam ut feugiat urna, non imperdiet metus. Curabitur varius justo vel urna placerat euismod. Etiam porttitor dapibus risus, non rhoncus est dapibus et. Nulla sit amet ante tincidunt, mollis quam eleifend, facilisis enim.
+
+            In malesuada vitae purus sed vestibulum. Duis ligula leo, hendrerit quis hendrerit non, laoreet vitae dolor. Etiam ac justo in ipsum pharetra cursus. Suspendisse hendrerit posuere placerat. Curabitur quis pellentesque elit. Etiam aliquam lacus at tincidunt vestibulum. Mauris ullamcorper lacus elit, non rutrum justo elementum ac.
+        </cuerpo>
+        <foto>img/escuela.jpg</foto>
+        <fecha>01/09/2020</fecha>
+    </noticia>
+    <noticia>
+        <titulo>La presunci&oacute;n de inocencia como bandera del centro.</titulo>
+        <cuerpo>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui metus, placerat non convallis non, vulputate ut lectus. In hac habitasse platea dictumst. Aenean quis arcu in purus ornare interdum et sit amet lectus. Nullam accumsan risus at orci convallis volutpat. Curabitur eget tincidunt mi, et iaculis nisi. Aenean convallis ac lacus sit amet tincidunt. Curabitur semper laoreet suscipit. Maecenas quis nunc vestibulum ex congue rhoncus. Integer tincidunt quam sit amet blandit suscipit. Quisque sollicitudin lacus eget nunc dictum rhoncus.
+
+            Etiam maximus, metus ut cursus dignissim, arcu lorem bibendum mi, vitae hendrerit turpis tortor vitae arcu. Nunc ornare imperdiet facilisis. Fusce aliquam efficitur interdum. Fusce a tempus ligula. Nulla facilisi. Suspendisse pulvinar urna nec consectetur accumsan. Sed vulputate sodales lorem, ut scelerisque eros lacinia non. Etiam euismod rhoncus porta.
+
+            Nunc interdum urna ultricies dolor hendrerit tristique eget et nulla. Integer pretium tincidunt purus, quis vestibulum mauris dignissim non. Nunc nulla eros, dictum sed ex a, faucibus tempor sapien. Mauris dictum urna lorem, eu facilisis magna fermentum ut. Proin eu aliquam purus. Donec at posuere orci, ac commodo nisi. Mauris malesuada lorem sapien, non tempus mauris elementum at. Cras laoreet faucibus enim. In euismod enim quis lorem tempus vulputate. Sed tincidunt massa et odio lacinia vestibulum. In ut laoreet purus. Nullam euismod a augue sit amet suscipit.
+
+            Cras feugiat metus ut justo efficitur tempus. Etiam egestas aliquet ex, vitae scelerisque est feugiat gravida. Sed ut est eu libero venenatis accumsan. Etiam risus libero, rutrum eget facilisis quis, fringilla vitae magna. Vivamus eleifend est vitae velit semper, non efficitur nibh eleifend. Phasellus ultricies blandit sapien, ac dapibus ipsum euismod sit amet. Integer mollis erat nec dui semper consectetur. Praesent sollicitudin non leo quis lobortis. Quisque sit amet turpis mi. Vestibulum quis molestie ante, non feugiat odio. Praesent dignissim eros a arcu feugiat interdum. Morbi varius consectetur turpis nec efficitur. Mauris blandit nibh vitae metus hendrerit facilisis. Phasellus eu tellus vitae odio bibendum volutpat ac sit amet augue.
+
+            Donec cursus porttitor semper. Phasellus vitae euismod leo. Sed nec risus suscipit, tincidunt sem non, consequat turpis. Nullam ut feugiat urna, non imperdiet metus. Curabitur varius justo vel urna placerat euismod. Etiam porttitor dapibus risus, non rhoncus est dapibus et. Nulla sit amet ante tincidunt, mollis quam eleifend, facilisis enim.
+
+            In malesuada vitae purus sed vestibulum. Duis ligula leo, hendrerit quis hendrerit non, laoreet vitae dolor. Etiam ac justo in ipsum pharetra cursus. Suspendisse hendrerit posuere placerat. Curabitur quis pellentesque elit. Etiam aliquam lacus at tincidunt vestibulum. Mauris ullamcorper lacus elit, non rutrum justo elementum ac.
+        </cuerpo>
+        <foto>img/presuncion_inocencia.jpg</foto>
+        <fecha>20/09/2020</fecha>
+    </noticia>
+    <noticia>
+        <titulo>Juan Manuel Ortiz, padre y compa&ntilde;ero de clase.</titulo>
+        <cuerpo>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui metus, placerat non convallis non, vulputate ut lectus. In hac habitasse platea dictumst. Aenean quis arcu in purus ornare interdum et sit amet lectus. Nullam accumsan risus at orci convallis volutpat. Curabitur eget tincidunt mi, et iaculis nisi. Aenean convallis ac lacus sit amet tincidunt. Curabitur semper laoreet suscipit. Maecenas quis nunc vestibulum ex congue rhoncus. Integer tincidunt quam sit amet blandit suscipit. Quisque sollicitudin lacus eget nunc dictum rhoncus.
+
+            Etiam maximus, metus ut cursus dignissim, arcu lorem bibendum mi, vitae hendrerit turpis tortor vitae arcu. Nunc ornare imperdiet facilisis. Fusce aliquam efficitur interdum. Fusce a tempus ligula. Nulla facilisi. Suspendisse pulvinar urna nec consectetur accumsan. Sed vulputate sodales lorem, ut scelerisque eros lacinia non. Etiam euismod rhoncus porta.
+
+            Nunc interdum urna ultricies dolor hendrerit tristique eget et nulla. Integer pretium tincidunt purus, quis vestibulum mauris dignissim non. Nunc nulla eros, dictum sed ex a, faucibus tempor sapien. Mauris dictum urna lorem, eu facilisis magna fermentum ut. Proin eu aliquam purus. Donec at posuere orci, ac commodo nisi. Mauris malesuada lorem sapien, non tempus mauris elementum at. Cras laoreet faucibus enim. In euismod enim quis lorem tempus vulputate. Sed tincidunt massa et odio lacinia vestibulum. In ut laoreet purus. Nullam euismod a augue sit amet suscipit.
+
+            Cras feugiat metus ut justo efficitur tempus. Etiam egestas aliquet ex, vitae scelerisque est feugiat gravida. Sed ut est eu libero venenatis accumsan. Etiam risus libero, rutrum eget facilisis quis, fringilla vitae magna. Vivamus eleifend est vitae velit semper, non efficitur nibh eleifend. Phasellus ultricies blandit sapien, ac dapibus ipsum euismod sit amet. Integer mollis erat nec dui semper consectetur. Praesent sollicitudin non leo quis lobortis. Quisque sit amet turpis mi. Vestibulum quis molestie ante, non feugiat odio. Praesent dignissim eros a arcu feugiat interdum. Morbi varius consectetur turpis nec efficitur. Mauris blandit nibh vitae metus hendrerit facilisis. Phasellus eu tellus vitae odio bibendum volutpat ac sit amet augue.
+
+            Donec cursus porttitor semper. Phasellus vitae euismod leo. Sed nec risus suscipit, tincidunt sem non, consequat turpis. Nullam ut feugiat urna, non imperdiet metus. Curabitur varius justo vel urna placerat euismod. Etiam porttitor dapibus risus, non rhoncus est dapibus et. Nulla sit amet ante tincidunt, mollis quam eleifend, facilisis enim.
+
+            In malesuada vitae purus sed vestibulum. Duis ligula leo, hendrerit quis hendrerit non, laoreet vitae dolor. Etiam ac justo in ipsum pharetra cursus. Suspendisse hendrerit posuere placerat. Curabitur quis pellentesque elit. Etiam aliquam lacus at tincidunt vestibulum. Mauris ullamcorper lacus elit, non rutrum justo elementum ac.
+        </cuerpo>
+        <foto>img/padre.jpg</foto>
+        <fecha>12/10/2020</fecha>
+    </noticia>
+    <noticia>
+        <titulo>Dos estudiantes entre los candidatos al Nobel</titulo>
+        <cuerpo>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui metus, placerat non convallis non, vulputate ut lectus. In hac habitasse platea dictumst. Aenean quis arcu in purus ornare interdum et sit amet lectus. Nullam accumsan risus at orci convallis volutpat. Curabitur eget tincidunt mi, et iaculis nisi. Aenean convallis ac lacus sit amet tincidunt. Curabitur semper laoreet suscipit. Maecenas quis nunc vestibulum ex congue rhoncus. Integer tincidunt quam sit amet blandit suscipit. Quisque sollicitudin lacus eget nunc dictum rhoncus.
+
+            Etiam maximus, metus ut cursus dignissim, arcu lorem bibendum mi, vitae hendrerit turpis tortor vitae arcu. Nunc ornare imperdiet facilisis. Fusce aliquam efficitur interdum. Fusce a tempus ligula. Nulla facilisi. Suspendisse pulvinar urna nec consectetur accumsan. Sed vulputate sodales lorem, ut scelerisque eros lacinia non. Etiam euismod rhoncus porta.
+
+            Nunc interdum urna ultricies dolor hendrerit tristique eget et nulla. Integer pretium tincidunt purus, quis vestibulum mauris dignissim non. Nunc nulla eros, dictum sed ex a, faucibus tempor sapien. Mauris dictum urna lorem, eu facilisis magna fermentum ut. Proin eu aliquam purus. Donec at posuere orci, ac commodo nisi. Mauris malesuada lorem sapien, non tempus mauris elementum at. Cras laoreet faucibus enim. In euismod enim quis lorem tempus vulputate. Sed tincidunt massa et odio lacinia vestibulum. In ut laoreet purus. Nullam euismod a augue sit amet suscipit.
+
+            Cras feugiat metus ut justo efficitur tempus. Etiam egestas aliquet ex, vitae scelerisque est feugiat gravida. Sed ut est eu libero venenatis accumsan. Etiam risus libero, rutrum eget facilisis quis, fringilla vitae magna. Vivamus eleifend est vitae velit semper, non efficitur nibh eleifend. Phasellus ultricies blandit sapien, ac dapibus ipsum euismod sit amet. Integer mollis erat nec dui semper consectetur. Praesent sollicitudin non leo quis lobortis. Quisque sit amet turpis mi. Vestibulum quis molestie ante, non feugiat odio. Praesent dignissim eros a arcu feugiat interdum. Morbi varius consectetur turpis nec efficitur. Mauris blandit nibh vitae metus hendrerit facilisis. Phasellus eu tellus vitae odio bibendum volutpat ac sit amet augue.
+
+            Donec cursus porttitor semper. Phasellus vitae euismod leo. Sed nec risus suscipit, tincidunt sem non, consequat turpis. Nullam ut feugiat urna, non imperdiet metus. Curabitur varius justo vel urna placerat euismod. Etiam porttitor dapibus risus, non rhoncus est dapibus et. Nulla sit amet ante tincidunt, mollis quam eleifend, facilisis enim.
+
+            In malesuada vitae purus sed vestibulum. Duis ligula leo, hendrerit quis hendrerit non, laoreet vitae dolor. Etiam ac justo in ipsum pharetra cursus. Suspendisse hendrerit posuere placerat. Curabitur quis pellentesque elit. Etiam aliquam lacus at tincidunt vestibulum. Mauris ullamcorper lacus elit, non rutrum justo elementum ac.
+        </cuerpo>
+        <foto>img/nobel.jpg</foto>
+        <fecha>23/10/2020</fecha>
+    </noticia>
+    <noticia>
+        <titulo>El pr&oacute;ximo viernes, reuni&oacute;n del claustro</titulo>
+        <cuerpo>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui metus, placerat non convallis non, vulputate ut lectus. In hac habitasse platea dictumst. Aenean quis arcu in purus ornare interdum et sit amet lectus. Nullam accumsan risus at orci convallis volutpat. Curabitur eget tincidunt mi, et iaculis nisi. Aenean convallis ac lacus sit amet tincidunt. Curabitur semper laoreet suscipit. Maecenas quis nunc vestibulum ex congue rhoncus. Integer tincidunt quam sit amet blandit suscipit. Quisque sollicitudin lacus eget nunc dictum rhoncus.
+
+            Etiam maximus, metus ut cursus dignissim, arcu lorem bibendum mi, vitae hendrerit turpis tortor vitae arcu. Nunc ornare imperdiet facilisis. Fusce aliquam efficitur interdum. Fusce a tempus ligula. Nulla facilisi. Suspendisse pulvinar urna nec consectetur accumsan. Sed vulputate sodales lorem, ut scelerisque eros lacinia non. Etiam euismod rhoncus porta.
+
+            Nunc interdum urna ultricies dolor hendrerit tristique eget et nulla. Integer pretium tincidunt purus, quis vestibulum mauris dignissim non. Nunc nulla eros, dictum sed ex a, faucibus tempor sapien. Mauris dictum urna lorem, eu facilisis magna fermentum ut. Proin eu aliquam purus. Donec at posuere orci, ac commodo nisi. Mauris malesuada lorem sapien, non tempus mauris elementum at. Cras laoreet faucibus enim. In euismod enim quis lorem tempus vulputate. Sed tincidunt massa et odio lacinia vestibulum. In ut laoreet purus. Nullam euismod a augue sit amet suscipit.
+
+            Cras feugiat metus ut justo efficitur tempus. Etiam egestas aliquet ex, vitae scelerisque est feugiat gravida. Sed ut est eu libero venenatis accumsan. Etiam risus libero, rutrum eget facilisis quis, fringilla vitae magna. Vivamus eleifend est vitae velit semper, non efficitur nibh eleifend. Phasellus ultricies blandit sapien, ac dapibus ipsum euismod sit amet. Integer mollis erat nec dui semper consectetur. Praesent sollicitudin non leo quis lobortis. Quisque sit amet turpis mi. Vestibulum quis molestie ante, non feugiat odio. Praesent dignissim eros a arcu feugiat interdum. Morbi varius consectetur turpis nec efficitur. Mauris blandit nibh vitae metus hendrerit facilisis. Phasellus eu tellus vitae odio bibendum volutpat ac sit amet augue.
+
+            Donec cursus porttitor semper. Phasellus vitae euismod leo. Sed nec risus suscipit, tincidunt sem non, consequat turpis. Nullam ut feugiat urna, non imperdiet metus. Curabitur varius justo vel urna placerat euismod. Etiam porttitor dapibus risus, non rhoncus est dapibus et. Nulla sit amet ante tincidunt, mollis quam eleifend, facilisis enim.
+
+            In malesuada vitae purus sed vestibulum. Duis ligula leo, hendrerit quis hendrerit non, laoreet vitae dolor. Etiam ac justo in ipsum pharetra cursus. Suspendisse hendrerit posuere placerat. Curabitur quis pellentesque elit. Etiam aliquam lacus at tincidunt vestibulum. Mauris ullamcorper lacus elit, non rutrum justo elementum ac.
+        </cuerpo>
+        <foto>img/claustro.jpg</foto>
+        <fecha>11/11/2020</fecha>
+    </noticia>
+    <noticia>
+        <titulo>La nueva moda en la educaci&oacute;n escandinava: si te portas mal, golpe de remo.</titulo>
+        <cuerpo>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui metus, placerat non convallis non, vulputate ut lectus. In hac habitasse platea dictumst. Aenean quis arcu in purus ornare interdum et sit amet lectus. Nullam accumsan risus at orci convallis volutpat. Curabitur eget tincidunt mi, et iaculis nisi. Aenean convallis ac lacus sit amet tincidunt. Curabitur semper laoreet suscipit. Maecenas quis nunc vestibulum ex congue rhoncus. Integer tincidunt quam sit amet blandit suscipit. Quisque sollicitudin lacus eget nunc dictum rhoncus.
+
+            Etiam maximus, metus ut cursus dignissim, arcu lorem bibendum mi, vitae hendrerit turpis tortor vitae arcu. Nunc ornare imperdiet facilisis. Fusce aliquam efficitur interdum. Fusce a tempus ligula. Nulla facilisi. Suspendisse pulvinar urna nec consectetur accumsan. Sed vulputate sodales lorem, ut scelerisque eros lacinia non. Etiam euismod rhoncus porta.
+
+            Nunc interdum urna ultricies dolor hendrerit tristique eget et nulla. Integer pretium tincidunt purus, quis vestibulum mauris dignissim non. Nunc nulla eros, dictum sed ex a, faucibus tempor sapien. Mauris dictum urna lorem, eu facilisis magna fermentum ut. Proin eu aliquam purus. Donec at posuere orci, ac commodo nisi. Mauris malesuada lorem sapien, non tempus mauris elementum at. Cras laoreet faucibus enim. In euismod enim quis lorem tempus vulputate. Sed tincidunt massa et odio lacinia vestibulum. In ut laoreet purus. Nullam euismod a augue sit amet suscipit.
+
+            Cras feugiat metus ut justo efficitur tempus. Etiam egestas aliquet ex, vitae scelerisque est feugiat gravida. Sed ut est eu libero venenatis accumsan. Etiam risus libero, rutrum eget facilisis quis, fringilla vitae magna. Vivamus eleifend est vitae velit semper, non efficitur nibh eleifend. Phasellus ultricies blandit sapien, ac dapibus ipsum euismod sit amet. Integer mollis erat nec dui semper consectetur. Praesent sollicitudin non leo quis lobortis. Quisque sit amet turpis mi. Vestibulum quis molestie ante, non feugiat odio. Praesent dignissim eros a arcu feugiat interdum. Morbi varius consectetur turpis nec efficitur. Mauris blandit nibh vitae metus hendrerit facilisis. Phasellus eu tellus vitae odio bibendum volutpat ac sit amet augue.
+
+            Donec cursus porttitor semper. Phasellus vitae euismod leo. Sed nec risus suscipit, tincidunt sem non, consequat turpis. Nullam ut feugiat urna, non imperdiet metus. Curabitur varius justo vel urna placerat euismod. Etiam porttitor dapibus risus, non rhoncus est dapibus et. Nulla sit amet ante tincidunt, mollis quam eleifend, facilisis enim.
+
+            In malesuada vitae purus sed vestibulum. Duis ligula leo, hendrerit quis hendrerit non, laoreet vitae dolor. Etiam ac justo in ipsum pharetra cursus. Suspendisse hendrerit posuere placerat. Curabitur quis pellentesque elit. Etiam aliquam lacus at tincidunt vestibulum. Mauris ullamcorper lacus elit, non rutrum justo elementum ac.</cuerpo>
+        <foto>img/escandinavia.jpg</foto>
+        <fecha>30/11/2020</fecha>
+    </noticia>
+    <noticia>
+        <titulo>Estudiante saca todo Sobresaliente aliment&aacute;ndose solamente de Red Bull y ganchitos.</titulo>
+        <cuerpo>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui metus, placerat non convallis non, vulputate ut lectus. In hac habitasse platea dictumst. Aenean quis arcu in purus ornare interdum et sit amet lectus. Nullam accumsan risus at orci convallis volutpat. Curabitur eget tincidunt mi, et iaculis nisi. Aenean convallis ac lacus sit amet tincidunt. Curabitur semper laoreet suscipit. Maecenas quis nunc vestibulum ex congue rhoncus. Integer tincidunt quam sit amet blandit suscipit. Quisque sollicitudin lacus eget nunc dictum rhoncus.
+
+            Etiam maximus, metus ut cursus dignissim, arcu lorem bibendum mi, vitae hendrerit turpis tortor vitae arcu. Nunc ornare imperdiet facilisis. Fusce aliquam efficitur interdum. Fusce a tempus ligula. Nulla facilisi. Suspendisse pulvinar urna nec consectetur accumsan. Sed vulputate sodales lorem, ut scelerisque eros lacinia non. Etiam euismod rhoncus porta.
+
+            Nunc interdum urna ultricies dolor hendrerit tristique eget et nulla. Integer pretium tincidunt purus, quis vestibulum mauris dignissim non. Nunc nulla eros, dictum sed ex a, faucibus tempor sapien. Mauris dictum urna lorem, eu facilisis magna fermentum ut. Proin eu aliquam purus. Donec at posuere orci, ac commodo nisi. Mauris malesuada lorem sapien, non tempus mauris elementum at. Cras laoreet faucibus enim. In euismod enim quis lorem tempus vulputate. Sed tincidunt massa et odio lacinia vestibulum. In ut laoreet purus. Nullam euismod a augue sit amet suscipit.
+
+            Cras feugiat metus ut justo efficitur tempus. Etiam egestas aliquet ex, vitae scelerisque est feugiat gravida. Sed ut est eu libero venenatis accumsan. Etiam risus libero, rutrum eget facilisis quis, fringilla vitae magna. Vivamus eleifend est vitae velit semper, non efficitur nibh eleifend. Phasellus ultricies blandit sapien, ac dapibus ipsum euismod sit amet. Integer mollis erat nec dui semper consectetur. Praesent sollicitudin non leo quis lobortis. Quisque sit amet turpis mi. Vestibulum quis molestie ante, non feugiat odio. Praesent dignissim eros a arcu feugiat interdum. Morbi varius consectetur turpis nec efficitur. Mauris blandit nibh vitae metus hendrerit facilisis. Phasellus eu tellus vitae odio bibendum volutpat ac sit amet augue.
+
+            Donec cursus porttitor semper. Phasellus vitae euismod leo. Sed nec risus suscipit, tincidunt sem non, consequat turpis. Nullam ut feugiat urna, non imperdiet metus. Curabitur varius justo vel urna placerat euismod. Etiam porttitor dapibus risus, non rhoncus est dapibus et. Nulla sit amet ante tincidunt, mollis quam eleifend, facilisis enim.
+
+            In malesuada vitae purus sed vestibulum. Duis ligula leo, hendrerit quis hendrerit non, laoreet vitae dolor. Etiam ac justo in ipsum pharetra cursus. Suspendisse hendrerit posuere placerat. Curabitur quis pellentesque elit. Etiam aliquam lacus at tincidunt vestibulum. Mauris ullamcorper lacus elit, non rutrum justo elementum ac.
+        </cuerpo>
+        <foto>img/red_bull.jpg</foto>
+        <fecha>23/12/2020</fecha>
+    </noticia>
+    <noticia>
+        <titulo>Los Coches Chocones, de Los Desgraciaus, nuevo himno nacional.</titulo>
+        <cuerpo>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui metus, placerat non convallis non, vulputate ut lectus. In hac habitasse platea dictumst. Aenean quis arcu in purus ornare interdum et sit amet lectus. Nullam accumsan risus at orci convallis volutpat. Curabitur eget tincidunt mi, et iaculis nisi. Aenean convallis ac lacus sit amet tincidunt. Curabitur semper laoreet suscipit. Maecenas quis nunc vestibulum ex congue rhoncus. Integer tincidunt quam sit amet blandit suscipit. Quisque sollicitudin lacus eget nunc dictum rhoncus.
+
+            Etiam maximus, metus ut cursus dignissim, arcu lorem bibendum mi, vitae hendrerit turpis tortor vitae arcu. Nunc ornare imperdiet facilisis. Fusce aliquam efficitur interdum. Fusce a tempus ligula. Nulla facilisi. Suspendisse pulvinar urna nec consectetur accumsan. Sed vulputate sodales lorem, ut scelerisque eros lacinia non. Etiam euismod rhoncus porta.
+
+            Nunc interdum urna ultricies dolor hendrerit tristique eget et nulla. Integer pretium tincidunt purus, quis vestibulum mauris dignissim non. Nunc nulla eros, dictum sed ex a, faucibus tempor sapien. Mauris dictum urna lorem, eu facilisis magna fermentum ut. Proin eu aliquam purus. Donec at posuere orci, ac commodo nisi. Mauris malesuada lorem sapien, non tempus mauris elementum at. Cras laoreet faucibus enim. In euismod enim quis lorem tempus vulputate. Sed tincidunt massa et odio lacinia vestibulum. In ut laoreet purus. Nullam euismod a augue sit amet suscipit.
+
+            Cras feugiat metus ut justo efficitur tempus. Etiam egestas aliquet ex, vitae scelerisque est feugiat gravida. Sed ut est eu libero venenatis accumsan. Etiam risus libero, rutrum eget facilisis quis, fringilla vitae magna. Vivamus eleifend est vitae velit semper, non efficitur nibh eleifend. Phasellus ultricies blandit sapien, ac dapibus ipsum euismod sit amet. Integer mollis erat nec dui semper consectetur. Praesent sollicitudin non leo quis lobortis. Quisque sit amet turpis mi. Vestibulum quis molestie ante, non feugiat odio. Praesent dignissim eros a arcu feugiat interdum. Morbi varius consectetur turpis nec efficitur. Mauris blandit nibh vitae metus hendrerit facilisis. Phasellus eu tellus vitae odio bibendum volutpat ac sit amet augue.
+
+            Donec cursus porttitor semper. Phasellus vitae euismod leo. Sed nec risus suscipit, tincidunt sem non, consequat turpis. Nullam ut feugiat urna, non imperdiet metus. Curabitur varius justo vel urna placerat euismod. Etiam porttitor dapibus risus, non rhoncus est dapibus et. Nulla sit amet ante tincidunt, mollis quam eleifend, facilisis enim.
+
+            In malesuada vitae purus sed vestibulum. Duis ligula leo, hendrerit quis hendrerit non, laoreet vitae dolor. Etiam ac justo in ipsum pharetra cursus. Suspendisse hendrerit posuere placerat. Curabitur quis pellentesque elit. Etiam aliquam lacus at tincidunt vestibulum. Mauris ullamcorper lacus elit, non rutrum justo elementum ac.
+        </cuerpo>
+        <foto>img/coches_choque.jpg</foto>
+        <fecha>07/01/2021</fecha>
+    </noticia>
+    <noticia>
+        <titulo>El debate como herramienta de aprendizaje.</titulo>
+        <cuerpo>
+            El debate estimula en los niños la capacidad de pensar y de organizar las ideas en su cabeza. Adem&aacute;s, el hecho de expresar dichas ideas en discursos frente a otros alumnos, puede mejorar su rendimiento acad&eacute;mico. El IES Sebasti&aacute;n Mart&iacute;n de Almudena Colominas Guti&eacute;rrez fomenta entre sus alumnos esta herramienta de aprendizaje a trav&eacute;s de su Club de Debate desde el que se desarrollan competencias tan importantes como la dialéctica, oratoria y técnicas para hablar en público. Se trabaja especialmente con los alumnos desde 3º de Secundaria a 2º de Bachillerato.
+            
+            Tal y como señalan desde el centro, «estas experiencias exponen a los estudiantes a retos constantes en lo que adquirir incontables habilidades y valores, entre los cuales destacan el trabajo en equipo, la negociación de ideas, hablar en p&uacute;blico y una enorme mejora del ingl&eacute;s ya que es la lengua vehicular usada».
+            
+            Es decir, no solo se profundiza en el aprendizaje, sino que adem&aacute;s se activa un ambiente de compromiso que contribuye a transferir la responsabilidad del aprendizaje al alumnado, pasando de un enfoque pasivo a uno m&aacute;s activo. Adem&aacute;s, se trata de una experiencia que aporta a los alumnos las herramientas necesarias para gestionar, no solo el momento presente, sino tambi&eacute;n m&uacute;ltiples situaciones en el futuro.
+            
+            «Hoy en d&iacute;a hay m&aacute;s informaci&oacute;n que nunca, y el ritmo de cambio seguramente continuar&aacute; siendo fren&eacute;tico. Esta realidad que vivimos nos invita a centrarnos menos en enseñar hechos y m&aacute;s en enseñar al estudiante c&oacute;mo utilizar la informaci&oacute;n de la que dispone. El desarrollo de habilidades de pensamiento cr&iacute;tico dotar&aacute; a nuestros alumnos de las herramientas necesarias para enfrentarse a esas situaciones cambiantes y a la aparici&oacute;n de nueva informaci&oacute;n», explica Jos&eacute; Julio Revillas, director pedag&oacute;gico del IES.
+            
+            Los estudiantes participan en ligas de debate tanto locales como internacionales en español y en ingl&eacute;s. Por ejemplo, en el European Youth Parliament y en la Liga de debate CICAE en ingl&eacute;s. Son adem&aacute;s pioneros en traer el programa Undestanding Europe a la comunidad aut&oacute;noma. Cuentan con una alumna que trabaja como Head Organiser y dos alumnos que trabajan como Media Team Members en la sesi&oacute;n regional de EYP 2020. «Se trata de actividades que abren una ventana a lo vivencial, propiciando un giro real hacia el aprendizaje competencial de los idiomas. Es ahí donde se demuestra la capacidad de extrapolar el pensamiento cr&iacute;tico a situaciones reales», añade Sebasti&aacute;n.
+            
+            Además de fomentar la comunicación natural de los alumnos en los diferentes idiomas tanto entre ellos como con los profesores correspondientes, el colegio cuenta con iniciativas más allá de lo estrictamente curricular para que los estudiantes puedan crecer y desarrollar todo su potencial a través de proyectos enriquecedores y estimulantes como es el ejemplo de los debates.
+        </cuerpo>
+        <foto>img/mapache.jpg</foto>
+        <fecha>20/01/2021</fecha>
+    </noticia>
+    <noticia>
+        <titulo>Denuncian la desaparici&oacute;n del administrador de nuestra Web. En el &uacute;ltimo mes el que escrib&iacute;a las noticias era su mapache.</titulo>
+        <cuerpo>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dui metus, placerat non convallis non, vulputate ut lectus. In hac habitasse platea dictumst. Aenean quis arcu in purus ornare interdum et sit amet lectus. Nullam accumsan risus at orci convallis volutpat. Curabitur eget tincidunt mi, et iaculis nisi. Aenean convallis ac lacus sit amet tincidunt. Curabitur semper laoreet suscipit. Maecenas quis nunc vestibulum ex congue rhoncus. Integer tincidunt quam sit amet blandit suscipit. Quisque sollicitudin lacus eget nunc dictum rhoncus.
+
+            Etiam maximus, metus ut cursus dignissim, arcu lorem bibendum mi, vitae hendrerit turpis tortor vitae arcu. Nunc ornare imperdiet facilisis. Fusce aliquam efficitur interdum. Fusce a tempus ligula. Nulla facilisi. Suspendisse pulvinar urna nec consectetur accumsan. Sed vulputate sodales lorem, ut scelerisque eros lacinia non. Etiam euismod rhoncus porta.
+
+            Nunc interdum urna ultricies dolor hendrerit tristique eget et nulla. Integer pretium tincidunt purus, quis vestibulum mauris dignissim non. Nunc nulla eros, dictum sed ex a, faucibus tempor sapien. Mauris dictum urna lorem, eu facilisis magna fermentum ut. Proin eu aliquam purus. Donec at posuere orci, ac commodo nisi. Mauris malesuada lorem sapien, non tempus mauris elementum at. Cras laoreet faucibus enim. In euismod enim quis lorem tempus vulputate. Sed tincidunt massa et odio lacinia vestibulum. In ut laoreet purus. Nullam euismod a augue sit amet suscipit.
+
+            Cras feugiat metus ut justo efficitur tempus. Etiam egestas aliquet ex, vitae scelerisque est feugiat gravida. Sed ut est eu libero venenatis accumsan. Etiam risus libero, rutrum eget facilisis quis, fringilla vitae magna. Vivamus eleifend est vitae velit semper, non efficitur nibh eleifend. Phasellus ultricies blandit sapien, ac dapibus ipsum euismod sit amet. Integer mollis erat nec dui semper consectetur. Praesent sollicitudin non leo quis lobortis. Quisque sit amet turpis mi. Vestibulum quis molestie ante, non feugiat odio. Praesent dignissim eros a arcu feugiat interdum. Morbi varius consectetur turpis nec efficitur. Mauris blandit nibh vitae metus hendrerit facilisis. Phasellus eu tellus vitae odio bibendum volutpat ac sit amet augue.
+
+            Donec cursus porttitor semper. Phasellus vitae euismod leo. Sed nec risus suscipit, tincidunt sem non, consequat turpis. Nullam ut feugiat urna, non imperdiet metus. Curabitur varius justo vel urna placerat euismod. Etiam porttitor dapibus risus, non rhoncus est dapibus et. Nulla sit amet ante tincidunt, mollis quam eleifend, facilisis enim.
+
+            In malesuada vitae purus sed vestibulum. Duis ligula leo, hendrerit quis hendrerit non, laoreet vitae dolor. Etiam ac justo in ipsum pharetra cursus. Suspendisse hendrerit posuere placerat. Curabitur quis pellentesque elit. Etiam aliquam lacus at tincidunt vestibulum. Mauris ullamcorper lacus elit, non rutrum justo elementum ac.
+        </cuerpo>
+        <foto>img/mapache.jpg</foto>
+        <fecha>20/01/2021</fecha>
+    </noticia>
+</noticias>
