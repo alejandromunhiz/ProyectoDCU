@@ -3,7 +3,7 @@ function hola() {
 }
 
 $(document).ready(function () {
-    $.getJSON("./documentos/noticias.json", function (listaNoticias) {
+    $.getJSON("../documentos/noticias.json", function (listaNoticias) {
         $.each(listaNoticias, function (index, noticia) {
             if (index < 5) {
                 var cuerpoHTML = '<div id="noticia-' + index + '" class="bg-gray-400 px-5">';
@@ -23,11 +23,13 @@ function comprobar() {
     var pass = document.initSesion.userPassword.value;
     var div = document.getElementById("error");
     var msgError = '<div class="small text-warning" id="error">Usuario o contrase&ntilde;a incorrecto.</div>';
-    $.getJSON("./documentos/noticias.json", function (listaNoticias) {
+    $.getJSON("../documentos/usuarios.json", function (listaNoticias) {
         $.each(listaNoticias, function (index, usuario) {
+            console.log(usuario.id);
+            console.log(usuario.password);
             if (dni == usuario.id) {
                 if (pass == usuario.password) {
-                    window.location.href = "./usuario.html";
+                    window.location.href = "../index.html?User="+usuario.id;
                 }
             } else {
                 if (!div) {

@@ -1,22 +1,22 @@
 [
     {
         "id":"12345678W",
-        "contraseña":"1234abcd"
+        "password":"1234abcd"
     },
     {
         "id":"23456387R",
-        "contraseña":"qwerty123"
+        "password":"qwerty123"
     },
     {
         "id":"34567891F",
-        "contraseña":"a1b2c3d4"
+        "password":"a1b2c3d4"
     },
     {
         "id":"37264096W",
-        "contraseña":"0987abcd"
+        "password":"0987abcd"
     },
     {
         "id":"93847525G",
-        "contraseña":"1234qwerty"
+        "password":"1234qwerty"
     }
 ]
