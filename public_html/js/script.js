@@ -93,7 +93,12 @@ function comprobar() {
             }
         });
     });
-
+    if (!div) {
+        $("#divPass").append(msgError);
+    } else {
+        div.innerHTML = 'Contrase&ntilde;a incorrecta.';
+    }
+    return false;
 }
 
 function irAsignaturas() {
@@ -104,8 +109,62 @@ function irAsignaturas() {
     window.location.href = "./asignaturas.html?usu=" + userID[1];
 }
 
-function desplegables() {
+function desplegables(asig) {
     var div = document.getElementById("asignaturas");
+    var query = window.location.search.substring(1);
+    var userID = query.split("=");
+
+
+    var divIn2 = document.getElementById("desplegablesDEW");
+    divIn = document.getElementById("DEW");
+    if (divIn2) {
+        divIn.removeChild(divIn2);
+    }
+    divIn2 = document.getElementById("desplegablesIAP");
+    divIn = document.getElementById("IAP");
+    if (divIn2) {
+        divIn.removeChild(divIn2);
+    }
+    divIn2 = document.getElementById("desplegablesDCU");
+    divIn = document.getElementById("DCU");
+    if (divIn2) {
+        divIn.removeChild(divIn2);
+    }
+
+    var incluirHTML = '<div id="desplegables' + asig + '" class="container-fluid px-3"><div class="bg-dark">\n\
+                        <div class="px-3 pt-3">\n\
+                            <a href="noticias.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                                <i class="fas fa-circle float-left"></i>\n\
+                                <span class="strong">&Uacute;ltimas noticias</span>\n\
+                            </a>\n\
+                        </div>'
+    incluirHTML += '<div class="px-3 pt-3">\n\
+                            <a href="tareas.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                                <i class="fas fa-circle float-left"></i>\n\
+                                <span class="strong">Tareas</span>\n\
+                            </a>\n\
+                        </div>'
+    incluirHTML += '<div class="px-3 pt-3">\n\
+                            <a href="examenes.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                                <i class="fas fa-circle float-left"></i>\n\
+                                <span class="strong">Ex&aacute;menes</span>\n\
+                            </a>\n\
+                        </div>'
+    incluirHTML += '<div class="px-3 pt-3">\n\
+                            <a href="profesorado.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                                <i class="fas fa-circle float-left"></i>\n\
+                                <span class="strong">Profesorado</span>\n\
+                            </a>\n\
+                        </div>'
+    incluirHTML += '<div class="p-3">\n\
+                            <a href="horarios.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                                <i class="fas fa-circle float-left"></i>\n\
+                                <span class="strong">Horarios</span>\n\
+                            </a>\n\
+                        </div>\n\
+                    </div></div>';
+    $("#" + asig).append(incluirHTML);
+
 
 }
 
@@ -126,33 +185,25 @@ function recuperarContrasena() {
     return false;
 }
 function getNotas() {
-    var prueba = document.getElementById("dni").value;
-    var asignatura = document.getElementById("asig").value;
-    var url = "http://localhost:8081/alumno/" + prueba + "/expediente";
+    var usuario = document.getElementById("dni").value;
+    var asignatura = document.getElementById("asignatura").value;
+    var url = "http://localhost:8081/alumno/" + usuario + "/expediente";
     alert(url);
     $.ajax({
         type: "GET",
         url: url,
         dataType: "xml",
         success: function (result) {
-            thNombre.innerHTML = result.getElementsByTagName("Nombre")[0].innerHTML + " " + result.getElementsByTagName("Apellidos")[0].innerHTML;
-            fila1.appendChild(thNombre);
-            tabla.appendChild(fila1);
             var existe = false;
             var users = result.getElementsByTagName("Notas")[0].getElementsByTagName("Asignatura");
-            console.log(result.getElementsByTagName("Nombre")[0].innerHTML);
             if (users.length > 0) {
                 for (var i = 0; i < users.length; i++) {
                     if (users[i].getElementsByTagName("Acronimo")[0].innerHTML == asignatura) {
                         var existe = true;
-                        var fila_aux = document.createElement("tr");
-                        var td = document.createElement("td");
-                        var td2 = document.createElement("td");
-                        td.innerHTML = users[i].getElementsByTagName("Acronimo")[0].innerHTML;
-                        td2.innerHTML = users[i].getElementsByTagName("Nota")[0].innerHTML;
-                        fila_aux.appendChild(td);
-                        fila_aux.appendChild(td2);
-                        tabla.appendChild(fila_aux);
+                        var notas = document.getElementsByName("notas");
+                        for (var j = 0; j < notas.length; j++) {
+                            notas[j].innerHTML = users[i].getElementsByTagName("Nota")[0].innerHTML;
+                        }
                     }
                 }
             }
