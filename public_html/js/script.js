@@ -47,9 +47,12 @@ function comprobar() {
 
 }
 
-function asignaturas(){
+function irAsignaturas(){
     //Lee el parámetro user
     //Si user != null -> window.location.href = "./asignaturas.html?usu=" + user_id;
+    var query = window.location.search.substring(1);
+    var userID = query.split("=");
+    window.location.href = "./asignaturas.html?usu=" + userID[1];
 }
 
 function desplegables(){
@@ -57,8 +60,15 @@ function desplegables(){
     
 }
 
-function volver() {
-    window.location.href = "./index.html";
+function irIndex() {var query = window.location.search.substring(1);
+    var userID = query.split("=");
+    window.location.href = "./index.html?usu=" + userID[1];
+}
+
+function irAlumnos() {
+    var query = window.location.search.substring(1);
+    var userID = query.split("=");
+    window.location.href = "./alumnos.html?usu=" + userID[1];
 }
 
 function recuperarContrasena() {
