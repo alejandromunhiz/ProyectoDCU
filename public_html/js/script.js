@@ -72,7 +72,7 @@ function comprobar() {
     var dni = document.initSesion.userID.value;
     var pass = document.initSesion.userPassword.value;
     var div = document.getElementById("error");
-    var msgError = '<div class="small text-warning col-6" id="error">Usuario o contrase&ntilde;a incorrecto.</div>';
+    var msgError = '<div class="small text-danger col-6" id="error">Usuario o contrase&ntilde;a incorrecto.</div>';
     $.getJSON("./documentos/usuarios.json", function (listaNoticias) {
         $.each(listaNoticias, function (index, usuario) {
             console.log(usuario.id);
