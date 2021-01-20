@@ -203,7 +203,7 @@ function getNotas() {
                 for (var i = 0; i < users.length; i++) {
                     if (users[i].getElementsByTagName("Acronimo")[0].innerHTML == asignatura) {
                         var existe = true;
-                        var notas = document.getElementsByName("notas");
+                        var notas = document.getElementsByClassName("notas");
                         for (var j = 0; j < notas.length; j++) {
                             notas[j].innerHTML = users[i].getElementsByTagName("Nota")[0].innerHTML;
                         }
@@ -234,6 +234,5 @@ function getNotas() {
             }
             alert(msg);
         },
-    });
+    })
 }
-;
