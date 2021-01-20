@@ -116,7 +116,7 @@ function desplegables(asig) {
 
     var incluirHTML = '<div id="desplegables' + asig + '" class="container-fluid px-3"><div class="bg-dark">\n\
                         <div class="px-3 pt-3">\n\
-                            <a href="noticias.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                            <a href="noticiasAsignatura.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
                                 <i class="fas fa-circle float-left"></i>\n\
                                 <span class="strong">&Uacute;ltimas noticias</span>\n\
                             </a>\n\
@@ -128,19 +128,19 @@ function desplegables(asig) {
                             </a>\n\
                         </div>'
     incluirHTML += '<div class="px-3 pt-3">\n\
-                            <a href="examenes.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                            <a href="examenesAsignatura.html?usu=' + userID[1] +"&asig="+ asig +'" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
                                 <i class="fas fa-circle float-left"></i>\n\
                                 <span class="strong">Ex&aacute;menes</span>\n\
                             </a>\n\
                         </div>'
     incluirHTML += '<div class="px-3 pt-3">\n\
-                            <a href="profesorado.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                            <a href="lista-profes.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
                                 <i class="fas fa-circle float-left"></i>\n\
                                 <span class="strong">Profesorado</span>\n\
                             </a>\n\
                         </div>'
     incluirHTML += '<div class="p-3">\n\
-                            <a href="horarios.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                            <a href="horarioAsignatura.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
                                 <i class="fas fa-circle float-left"></i>\n\
                                 <span class="strong">Horarios</span>\n\
                             </a>\n\
@@ -168,8 +168,12 @@ function recuperarContrasena() {
     return false;
 }
 function getNotas() {
-    var usuario = document.getElementById("dni").value;
-    var asignatura = document.getElementById("asignatura").value;
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
+    var usuario = urlParams.get("usu");
+    var asignatura = urlParams.get("asig");
+    console.log(usuario);
+    console.log(asignatura);
     var url = "http://localhost:8081/alumno/" + usuario + "/expediente";
     alert(url);
     $.ajax({

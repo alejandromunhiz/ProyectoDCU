@@ -2,10 +2,6 @@
 <html lang="en">
 
     <head>
-        <?php
-            $usuario = $_GET["usu"];
-            $asignatura = $_GET["asig"];
-        ?>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,11 +19,12 @@
         <!-- Custom styles for this template-->
         <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
 
     </head>
 
-    <body id="page-top">
+    <body id="page-top" onload="getNotas()">
 
         <!-- Page Wrapper -->
         <div id="wrapper">
@@ -195,8 +192,6 @@
                     
                     <h1 class="h3 mb-0 text-gray-800 text-center">Nota media</h1>
                     <h2 class="h3 mb-0 text-gray-800 text-center" name="notas"></h2>
-                    <input type="hidden" id="dni" value=<?php echo $usuario?>>
-                    <input type="hidden" id="asignatura" value=<?php echo $asignatura?>>
                     <!-- Page Content End -->
 
                 </div>
