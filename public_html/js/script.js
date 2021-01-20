@@ -109,33 +109,25 @@ function recuperarContrasena() {
     return false;
 }
 function getNotas() {
-    var prueba = document.getElementById("dni").value;
-    var asignatura = document.getElementById("asig").value;
-    var url = "http://localhost:8081/alumno/" + prueba + "/expediente";
+    var usuario = document.getElementById("dni").value;
+    var asignatura = document.getElementById("asignatura").value;
+    var url = "http://localhost:8081/alumno/" + usuario + "/expediente";
     alert(url);
     $.ajax({
         type: "GET",
         url: url,
         dataType: "xml",
         success: function (result) {
-            thNombre.innerHTML = result.getElementsByTagName("Nombre")[0].innerHTML + " " + result.getElementsByTagName("Apellidos")[0].innerHTML;
-            fila1.appendChild(thNombre);
-            tabla.appendChild(fila1);
             var existe = false;
             var users = result.getElementsByTagName("Notas")[0].getElementsByTagName("Asignatura");
-            console.log(result.getElementsByTagName("Nombre")[0].innerHTML);
             if (users.length > 0) {
                 for (var i = 0; i < users.length; i++) {
                     if (users[i].getElementsByTagName("Acronimo")[0].innerHTML == asignatura) {
                         var existe = true;
-                        var fila_aux = document.createElement("tr");
-                        var td = document.createElement("td");
-                        var td2 = document.createElement("td");
-                        td.innerHTML = users[i].getElementsByTagName("Acronimo")[0].innerHTML;
-                        td2.innerHTML = users[i].getElementsByTagName("Nota")[0].innerHTML;
-                        fila_aux.appendChild(td);
-                        fila_aux.appendChild(td2);
-                        tabla.appendChild(fila_aux);
+                        var notas = document.getElementsByName("notas");
+                        for(var j = 0;j<notas.length;j++){
+                            notas[j].innerHTML = users[i].getElementsByTagName("Nota")[0].innerHTML;
+                        }
                     }
                 }
             }
