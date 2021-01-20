@@ -1,3 +1,37 @@
+	$(document).ready(function () { 
+	    var location =window.location.pathname;
+	    var res = location.split("/");
+	    var loc = res[res.length-2]
+	    if(loc == "public_html"){
+	        $.getJSON("./documentos/noticias.json", function (listaNoticias) {
+	            $.each(listaNoticias, function (index, noticia) {
+	                    var cuerpoHTML = '<div id="noticia-' + index + '" class="bg-gray-400 px-5">';
+	                    cuerpoHTML += '<div><img id="Imagen' + index + '" src="' + noticia.foto + '" alt="Imagen de una noticia" class="img-fluid px-3 px-sm-4 mt-3 mb-4"/>';
+	                    cuerpoHTML += '<div class="h6 small">' + noticia.fecha + '</div>';
+	                    cuerpoHTML += '</div><div>';
+	                    cuerpoHTML += '<a class="h4 text-primary" href="noticia' + index + '.html">' + noticia.titulo + '</a>';
+	                    cuerpoHTML += '<div class="pb-5">' + noticia.cuerpo.substring(0, 200) + '...</div></div>';
+	                    $(".agregaNoticia").append(cuerpoHTML);
+	            });
+	        });
+	    }
+	    else{
+	        $.getJSON("../documentos/noticias.json", function (listaNoticias) {
+	            $.each(listaNoticias, function (index, noticia) {
+	                    var cuerpoHTML = '<div id="noticia-' + index + '" class="bg-gray-400 px-5">';
+	                    cuerpoHTML += '<div><img id="Imagen' + index + '" src="' + noticia.foto + '" alt="Imagen de una noticia" class="img-fluid px-3 px-sm-4 mt-3 mb-4"/>';
+	                    cuerpoHTML += '<div class="h6 small">' + noticia.fecha + '</div>';
+	                    cuerpoHTML += '</div><div>';
+	                    cuerpoHTML += '<a class="h4 text-primary" href="noticia' + index + '.html">' + noticia.titulo + '</a>';
+	                    cuerpoHTML += '<div class="pb-5">' + noticia.cuerpo.substring(0, 200) + '...</div></div>';
+	                    $("#noticia").append(cuerpoHTML);
+	                
+	            });
+	        });
+	    }
+	});
+
+
 function hola() {
     alert("hola caracola");
 }
@@ -129,6 +163,7 @@ function getNotas(){
 
  });
  };
+ 
 //Leemos el archivo noticias.xml
 //for each y for 0 --> 4 (5 últimas, nada más)
 //Creamos un div y lo insertamos dentro de PageContent
