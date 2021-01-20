@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>IES no demasiado aburrido</title>
+
+        <!-- Custom fonts for this template-->
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet">
+
+        <!-- Custom styles for this template-->
+        <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+        <script type="text/javascript" src="js/script.js"></script>
+
+    </head>
+
+    <body id="page-top">
+
+        <!-- Page Wrapper -->
+        <div id="wrapper">
+
+
+            <!-- Content Wrapper -->
+            <div id="content-wrapper" class="d-flex flex-column">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-5 static-top shadow row">
+
+
+                    <!-- Topbar Search -->
+                    <nav class="col-auto">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="javascript:irIndex()">Inicio</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:irAlumnos()">Men&uacute; Principal</a></li>
+                            <li class="breadcrumb-item"><span>Asignaturas</span></li>
+                        </ol>
+                    </nav>               
+
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav desaparece2 col-md-5 col-lg-6 col-xl-7 d-block">
+
+                        <!-- Nav Item - Messages -->
+                        <li class="nav-item dropdown no-arrow mx-1 float-right">
+                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true">
+                                <i class="fab fa-cuttlefish"></i>
+                            </a>
+                        </li>
+
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1 float-right">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true">
+                                <i class="fab fa-vuejs"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item no-arrow mx-1 pt-4 float-right"><span class="text-black-50">Seleccione el idioma</span></li>
+
+                    </ul>
+
+
+
+
+
+                    <div class="btn-group nav-item ml-auto col-auto">
+                        <button type="button" class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                            Roberto Giménez <span class="caret"></span>
+                        </button>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="index.html">Cerrar sesión</a></li>
+                        </ul>
+                    </div>		
+
+
+                </nav>
+                <!-- End of Topbar -->
+
+
+                <!-- Main Content -->
+                <div id="content">
+
+                    <!-- Begin Page Content -->
+                    <div class="container-fluid">
+                        <div class="p-2">
+                            <!-- Botón Iniciar Sesión -->
+                            <a href="javascript:desplegables()" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">
+                                <i class="fas fa-caret-right float-left"></i>
+                                <span class="strong">DEW</span>
+                            </a>
+                        </div>
+                        <div class="p-2">
+                            <!-- Botón Iniciar Sesión -->
+                            <a href="javascript:desplegables()" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">
+                                <i class="fas fa-caret-right float-left"></i>
+                                <span class="strong">IAP</span>
+                            </a>
+                        </div>
+                        <div class="p-2">
+                            <!-- Botón Iniciar Sesión -->
+                            <a href="javascript:desplegables()" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">
+                                <i class="fas fa-caret-right float-left"></i>
+                                <span class="strong">DCU</span>
+                            </a>
+                        </div>
+                        <div class="p-2 row">
+                            <!-- Botón Iniciar Sesión -->
+                            <div class="col-4"></div>
+                            <a href="index.html" class="col-4 align-self-center d-inline-block btn btn-danger shadow p-4">Cerrar Sesión</a>
+                            <div class="col-4"></div>
+                        </div>
+                    </div>
+
+
+                    <!-- Page Content End -->
+
+                </div>
+                <!-- End of Main Content -->
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <!-- Footer -->
+                <footer class="sticky-footer bg-white">
+                    <div class="container">
+
+                        <div class="row copyright text-center my-auto">
+                            <span class="col-lg-12 mb-5 mb-lg-4">Copyright &copy; Queremos aprobar DCU porfi-please 2021</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
+
+            </div>
+            <!-- End of Content Wrapper -->
+
+
+            <!-- End of Sidebar -->
+
+        </div>
+        <!-- End of Page Wrapper -->
+
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <!-- Logout Modal-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" href="login.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin-2.min.js"></script>
+
+        <!-- Page level plugins -->
+        <script src="vendor/chart.js/Chart.min.js"></script>
+
+        <!-- Page level custom scripts -->
+        <script src="js/demo/chart-area-demo.js"></script>
+        <script src="js/demo/chart-pie-demo.js"></script>
+
+    </body>
+
+</html>
+
