@@ -1,9 +1,8 @@
 $(document).ready(function () {
     $.getJSON("./documentos/noticias.json", function (listaNoticias) {
-    
-    
+
         $.each(listaNoticias, function (index, noticia) {
-        	var cuerpoHTML = '<div id="noticia-' + index + '" class="px-2 py-2">';
+            var cuerpoHTML = '<div id="noticia-' + index + '" class="px-2 py-2">';
             cuerpoHTML += '<div class="bg-gray-200">'
             cuerpoHTML += '<div><img id="Imagen' + index + '" src="' + noticia.foto + '" alt="Imagen de una noticia" class="img-fluid px-3 px-sm-4 mt-3 mb-4"/>';
             cuerpoHTML += '<div class="h6 small text-black-50">' + noticia.fecha + '</div>';
@@ -11,10 +10,10 @@ $(document).ready(function () {
             cuerpoHTML += '<a class="h4 text-primary" href="noticia' + index + '.html">' + noticia.titulo + '</a>';
             cuerpoHTML += '<div class="pb-5 text-black-50">' + noticia.cuerpo.substring(0, 200) + '...</div></div></div>';
             $('.agregaNoticia').append(cuerpoHTML);
-           
-                
-      });
- });
+
+        });
+    });
+});
 function hola() {
     alert("hola caracola");
 }
@@ -145,7 +144,7 @@ function desplegables(asig) {
                             </a>\n\
                         </div>'
     incluirHTML += '<div class="px-3 pt-3">\n\
-                            <a href="examenesAsignatura.html?usu=' + userID[1] +"&asig="+ asig +'" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                            <a href="examenesAsignatura.html?usu=' + userID[1] + "&asig=" + asig + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
                                 <i class="fas fa-circle float-left"></i>\n\
                                 <span class="strong">Ex&aacute;menes</span>\n\
                             </a>\n\
