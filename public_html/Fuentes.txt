@@ -5,3 +5,6 @@ Las imágenes utilizadas en este trabajo no tienen derechos de autor y proceden 
 
 Los iconos utilizados proceden de la página web:
     - https://fontawesome.com/icons?d=gallery
+
+Los recursos bootstrap utilizados proceden de la siguiente fuente:
+    - https://startbootstrap.com/previews/sb-admin-2

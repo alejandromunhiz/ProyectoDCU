@@ -14,6 +14,7 @@ $(document).ready(function () {
         });
     });
 });
+
 function hola() {
     alert("hola caracola");
 }
@@ -42,10 +43,10 @@ function comprobar() {
     var msgError = '<div class="small text-danger col-6" id="error">Usuario o contrase&ntilde;a incorrecto.</div>';
     $.getJSON("./documentos/usuarios.json", function (listaNoticias) {
         $.each(listaNoticias, function (index, usuario) {
-            if (dni == '' & pass == '')
+            if (dni == '' & pass == '') {
                 window.location.href = "./alumnos.html";
-            return true;
-            if (dni == usuario.id) {
+                return true;
+            } else if (dni == usuario.id) {
                 if (pass == usuario.password) {
                     window.location.href = "./alumnos.html?usu=" + usuario.id;
                     return true;
@@ -103,14 +104,14 @@ function desplegables(asig) {
         document.getElementById("flechaDCU").className = document.getElementById("flechaDCU").className.replace(/(?:^|\s)fa-caret-down(?!\S)/g, '')
         divIn.removeChild(divIn2);
     }
-    
-    if (asig == "DEW"){
+
+    if (asig == "DEW") {
         document.getElementById("flechaDEW").className += " fa-caret-down";
         document.getElementById("flechaDEW").className = document.getElementById("flechaDEW").className.replace(/(?:^|\s)fa-caret-right(?!\S)/g, '')
-    }else if (asig == "IAP"){
+    } else if (asig == "IAP") {
         document.getElementById("flechaIAP").className += " fa-caret-down";
         document.getElementById("flechaIAP").className = document.getElementById("flechaIAP").className.replace(/(?:^|\s)fa-caret-right(?!\S)/g, '')
-    }else if (asig == "DCU"){
+    } else if (asig == "DCU") {
         document.getElementById("flechaDCU").className += " fa-caret-down";
         document.getElementById("flechaDCU").className = document.getElementById("flechaDCU").className.replace(/(?:^|\s)fa-caret-right(?!\S)/g, '')
     }
