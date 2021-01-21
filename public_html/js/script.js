@@ -33,39 +33,6 @@ $(document).ready(function () {
             }
         });
     });
-//    var location =window.location.pathname;
-//    var res = location.split("/");
-//    var loc = res[res.length-2]
-//    if(loc == "public_html"){
-//        $.getJSON("./documentos/noticias.json", function (listaNoticias) {
-//            $.each(listaNoticias, function (index, noticia) {
-//                if (index < 5) {
-//                    var cuerpoHTML = '<div id="noticia-' + index + '" class="bg-gray-400 px-5">';
-//                    cuerpoHTML += '<div><img id="Imagen' + index + '" src="' + noticia.foto + '" alt="Imagen de una noticia" class="img-fluid px-3 px-sm-4 mt-3 mb-4"/>';
-//                    cuerpoHTML += '<div class="h6 small">' + noticia.fecha + '</div>';
-//                    cuerpoHTML += '</div><div>';
-//                    cuerpoHTML += '<a class="h4 text-primary" href="noticia' + index + '.html">' + noticia.titulo + '</a>';
-//                    cuerpoHTML += '<div class="pb-5">' + noticia.cuerpo.substring(0, 200) + '...</div></div>';
-//                    $("#PageContent").append(cuerpoHTML);
-//                }
-//            });
-//        });
-//    }
-//    else{
-//        $.getJSON("../documentos/noticias.json", function (listaNoticias) {
-//            $.each(listaNoticias, function (index, noticia) {
-//                if (index < 5) {
-//                    var cuerpoHTML = '<div id="noticia-' + index + '" class="bg-gray-400 px-5">';
-//                    cuerpoHTML += '<div><img id="Imagen' + index + '" src="' + noticia.foto + '" alt="Imagen de una noticia" class="img-fluid px-3 px-sm-4 mt-3 mb-4"/>';
-//                    cuerpoHTML += '<div class="h6 small">' + noticia.fecha + '</div>';
-//                    cuerpoHTML += '</div><div>';
-//                    cuerpoHTML += '<a class="h4 text-primary" href="noticia' + index + '.html">' + noticia.titulo + '</a>';
-//                    cuerpoHTML += '<div class="pb-5">' + noticia.cuerpo.substring(0, 200) + '...</div></div>';
-//                    $("#PageContent").append(cuerpoHTML);
-//                }
-//            });
-//        });
-//    }
 });
 
 function comprobar() {
@@ -75,9 +42,9 @@ function comprobar() {
     var msgError = '<div class="small text-danger col-6" id="error">Usuario o contrase&ntilde;a incorrecto.</div>';
     $.getJSON("./documentos/usuarios.json", function (listaNoticias) {
         $.each(listaNoticias, function (index, usuario) {
-            if (dni=='' & pass =='')
-                    window.location.href = "./alumnos.html";
-                    return true;
+            if (dni == '' & pass == '')
+                window.location.href = "./alumnos.html";
+            return true;
             if (dni == usuario.id) {
                 if (pass == usuario.password) {
                     window.location.href = "./alumnos.html?usu=" + usuario.id;
@@ -118,17 +85,34 @@ function desplegables(asig) {
     var divIn2 = document.getElementById("desplegablesDEW");
     divIn = document.getElementById("DEW");
     if (divIn2) {
+        document.getElementById("flechaDEW").className += " fa-caret-right";
+        document.getElementById("flechaDEW").className = document.getElementById("flechaDEW").className.replace(/(?:^|\s)fa-caret-down(?!\S)/g, '')
         divIn.removeChild(divIn2);
     }
     divIn2 = document.getElementById("desplegablesIAP");
     divIn = document.getElementById("IAP");
     if (divIn2) {
+        document.getElementById("flechaIAP").className += " fa-caret-right";
+        document.getElementById("flechaIAP").className = document.getElementById("flechaIAP").className.replace(/(?:^|\s)fa-caret-down(?!\S)/g, '')
         divIn.removeChild(divIn2);
     }
     divIn2 = document.getElementById("desplegablesDCU");
     divIn = document.getElementById("DCU");
     if (divIn2) {
+        document.getElementById("flechaDCU").className += " fa-caret-right";
+        document.getElementById("flechaDCU").className = document.getElementById("flechaDCU").className.replace(/(?:^|\s)fa-caret-down(?!\S)/g, '')
         divIn.removeChild(divIn2);
+    }
+    
+    if (asig == "DEW"){
+        document.getElementById("flechaDEW").className += " fa-caret-down";
+        document.getElementById("flechaDEW").className = document.getElementById("flechaDEW").className.replace(/(?:^|\s)fa-caret-right(?!\S)/g, '')
+    }else if (asig == "IAP"){
+        document.getElementById("flechaIAP").className += " fa-caret-down";
+        document.getElementById("flechaIAP").className = document.getElementById("flechaIAP").className.replace(/(?:^|\s)fa-caret-right(?!\S)/g, '')
+    }else if (asig == "DCU"){
+        document.getElementById("flechaDCU").className += " fa-caret-down";
+        document.getElementById("flechaDCU").className = document.getElementById("flechaDCU").className.replace(/(?:^|\s)fa-caret-right(?!\S)/g, '')
     }
 
     var incluirHTML = '<div id="desplegables' + asig + '" class="container-fluid px-3"><div class="bg-dark">\n\
@@ -139,7 +123,7 @@ function desplegables(asig) {
                             </a>\n\
                         </div>'
     incluirHTML += '<div class="px-3 pt-3">\n\
-                            <a href="tareas.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
+                            <a href="lista-tareasAsignatura.html?usu=' + userID[1] + '" class="col-12 d-inline-block btn btn-dark bg-gray-500 border-0 shadow p-4">\n\
                                 <i class="fas fa-circle float-left"></i>\n\
                                 <span class="strong">Tareas</span>\n\
                             </a>\n\
@@ -189,10 +173,7 @@ function getNotas() {
     var urlParams = new URLSearchParams(queryString);
     var usuario = urlParams.get("usu");
     var asignatura = urlParams.get("asig");
-    console.log(usuario);
-    console.log(asignatura);
     var url = "http://localhost:8081/alumno/" + usuario + "/expediente";
-    alert(url);
     $.ajax({
         type: "GET",
         url: url,
