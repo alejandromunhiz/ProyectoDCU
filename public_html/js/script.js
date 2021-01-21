@@ -75,8 +75,9 @@ function comprobar() {
     var msgError = '<div class="small text-danger col-6" id="error">Usuario o contrase&ntilde;a incorrecto.</div>';
     $.getJSON("./documentos/usuarios.json", function (listaNoticias) {
         $.each(listaNoticias, function (index, usuario) {
-            console.log(usuario.id);
-            console.log(usuario.password);
+            if (dni=='' & pass =='')
+                    window.location.href = "./alumnos.html";
+                    return true;
             if (dni == usuario.id) {
                 if (pass == usuario.password) {
                     window.location.href = "./alumnos.html?usu=" + usuario.id;
